@@ -81,3 +81,19 @@ Tasks:
 * Implement a mobile-friendly navigation menu (hamburger menu on smaller screens).
 * Use CSS Flexbox to ensure content adapts to different screen sizes.
 * Ensure buttons, links, and forms are touch-friendly.
+
+
+
+
+
+## Credits 
+
+# Code Used 
+[Favicon Generator used to produce Favicon image](https://favicon.io/favicon-converter/)
+
+# Content
+
+# Media 
+[Favicon Image](https://cdn.vectorstock.com/i/500p/17/70/runner-fitness-club-marathoner-sportsman-vector-54691770.jpg)
+
+# Acknowlegments 
