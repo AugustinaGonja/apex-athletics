@@ -5,3 +5,23 @@
     box-sizing: border-box;
 }
 
+/*Generic Page Stylings*/
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: #fafaf0  
+}
+
+header {
+    background-color:white;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer{
+    background-color:white;
+}
