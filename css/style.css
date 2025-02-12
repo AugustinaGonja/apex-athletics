@@ -25,9 +25,9 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
-    padding-left: 5px;
+    /*padding-left: 5px;*/
     display: flex;
-    justify-content: space-between;
+    justify-content:space-evenly;
     align-items: baseline;
 }
 #header{
@@ -46,9 +46,11 @@ header a{
     text-decoration: none;
     color: inherit;
 }
-#menu{
+
+#menu,li{
     list-style: none;
     margin-bottom: 2px;
+    padding-left: 10px;
 }
 #menu:hover{
     color:#1a659e ;
@@ -60,9 +62,12 @@ nav{
     background-color: white;
     width: 100%;
     display: none;
+    top: 100%;
 }
 
-
+#dropdown:checked~nav{
+    display: block;
+}
 main {
     flex: 1 0 auto;
 }
