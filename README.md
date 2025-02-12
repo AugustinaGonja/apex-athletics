@@ -1,131 +1,83 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Apex Athletics Website 
+Apex Athletics is designed for individuals of all ages seeking coaching in their chosen athletic disciplines, regardless of skill level. It also provides users with information on track meets and events.
+Furthermore,the website design ensures a user-friendly and accessible experience for all potential visitors.
 
-Welcome USER_NAME,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+[View Apex Athletics Website on GitHub Pages]()
 
 ---
+## User Experience (UX)
+### Project Expectations
+### User Stories
+Considering all potential users of the website, their needs, expectations, and the features they might be looking for, I will focus on implementing these elements effectively as a developer.
 
-Happy coding!
+**First Time Visitor :** 
+
+"As a Potential Visitor, I want to learn about the club so that I can decide if I want to join."
+Acceptance Criteria: 
+
+* Homepage providing clear overview of club's offerings.
+* An "About" section with relevant details. 
+* Clear call-to-action button for joining the club.
+
+Tasks:
+* Create an attractive homepage using HTML and CSS elements.
+* Write an engaging "About Us" section that highlights the club's mission, goals, and the motivations driving its members.
+* Create a call to action button linking to a registration form.
+
+**Prospective Athlete:**
+
+"As an Athlete looking for a place to train, I want to browse through the available training programs so that I can determine the best fit for myself."
+
+Acceptance Criteria : 
+* A "Training & Programs" page listing all available training programs/activites.
+* Information about schedules displayed.
+* There is an option to sign up for a membership.
+
+Tasks:
+* Create "Training and Schedules" page highlighting all ongoings.
+* Use customised Bootstrap grids to create a cohesive layout for training Schedules.
+* Use HTML elemments to create a sign up form.
+* Form to include general contact inputs and dropdown/radio button with selectable options for user.
+
+**Returning Visitor :** 
+
+"As a Returning Member, I want to contact the club and ask specific questions about upcoming events and more."
+
+Acceptance Criteria : 
+* An "Upcoming Events" section displaying the latest events.
+* Event details, including dates and locations, are visible.
+* "Contact Us" section with Sign Up form for mailing list (This will notify users of future events).
+
+Tasks :
+* Create an "Upcoming Events" page accesible from homepage.
+* Use Bootstrap for the clear layout of the events page.
+* Links to social media embedded in fixed footer. 
+* Create a mailing list taking email as input - "Sign up for News and Updates".
+
+**Potential Member:**
+
+"As a Potential Member, I want to contact the club so that I can ask specific questions."
+
+Acceptance Criteria:
+* A "Contact Us" form is available with fields for name, email, and message.
+* The club’s location is shown on a map.
+* Social media links are included for alternative contact options.
+
+Tasks:
+* Design and implement a "Contact Us" page with a form (name, email, message).
+* Integrate an embedded Google Map to show the club's location.
+* Add social media icons linking to external platforms.
+
+
+**General Web User**
+
+"As a web user , I expect the website to be easy to navigate, responsive and user-friendly across all devices"
+Acceptance Criteria:
+* Layout is responsive to all screen sizes.
+* The navigation menu is mobile-friendly.
+* Buttons and links are easy to tap.
+
+Tasks:
+* Implement a mobile-friendly navigation menu (hamburger menu on smaller screens).
+* Use CSS Flexbox to ensure content adapts to different screen sizes.
+* Ensure buttons, links, and forms are touch-friendly.
