@@ -82,8 +82,29 @@ Tasks:
 * Use CSS Flexbox to ensure content adapts to different screen sizes.
 * Ensure buttons, links, and forms are touch-friendly.
 
+## Design
 
+### Colour Scheme 
+A selection of natural tones, featuring **various shades of blue.**  
+To bring energy and vibrancy to the site, **yellows, oranges, and whites** are included.
+This will capture the core themes of **speed, athleticism, and power** while maintaining a balanced and harmonious feel.
+![Image showing Project Color Pallette](assets/images/Apex-Athletics%20Palette.png)
+### Typography
+All fonts on this website are imported from "Google Fonts". To enhance its sporty,sleek and impactful design, the primary font is **"Oswald".** which offers a range of font weights. As a fallback, **Montserrat** is used to maintain a modern, clean aesthetic while ensuring readability. If neither font loads, a generic **sans-serif** will be applied. 
 
+**CSS Code --> font-family: "Oswald" ,Montserrat, sans-serif;**
+
+ ![Image showing Project Typography](assets/images/Oswald%20Typography-AA.png)
+### Imagery
+The site's imagery will feature track athletes running, jumping, and throwing, highlighting individuals of various ages and abilites.
+
+*All images will be linked to their original source in the credits section.*
+
+### Wireframes
+Wireframes below created using "Balsamiq".
+Each page has its own wireframe as displayed on different screen sizes.
+
+## Features 
 
 
 ## Credits 
