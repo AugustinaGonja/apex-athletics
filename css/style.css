@@ -25,19 +25,44 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
+    padding-left: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 #header{
     font-weight: 420;
     text-transform: uppercase;
-    letter-spacing: -1px;
+    letter-spacing: 4px;
+}
+
+#header:hover{
+    text-decoration: underline;
+    color: #1a659e;
+    border-bottom: 4px;
+    border-color: #1a659e;
 }
 header a{
     text-decoration: none;
     color: inherit;
 }
-#menu {
+#menu{
     list-style: none;
+    margin-bottom: 2px;
 }
+#menu:hover{
+    color:#1a659e ;
+}
+
+/*Dropdown for Smaller Devices*/
+nav{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    display: none;
+}
+
+
 main {
     flex: 1 0 auto;
 }
