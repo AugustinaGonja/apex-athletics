@@ -118,6 +118,7 @@ li i {
 @media (max-width:768px) {
    .icon {
         display: block;
+        font-size:xx-large;
     }
     nav {
         background-color: white;
