@@ -51,20 +51,14 @@ header a {
 #menu,
 li {
   list-style: none;
-  margin-bottom: 2px;
-  padding-left: 10px;
+  padding:0px 10px 0px 10px;
+  right: 15px;
 }
-#menu:hover {
-  color: #1a659e;
-}
-
-/*Dropdown for Smaller Devices*/
+/*Dropdown*/
 nav {
   position: absolute;
-  background-color: white;
   width: 100%;
   display: none;
-  top: 100%;
 }
 #dropdown {
 display: none;
@@ -83,6 +77,9 @@ footer {
 
 /*Media Query for Tablets*/
 @media (min-width:768px) {
+    .icon {
+        display: none;
+    }
     nav {
          display: flex;
          justify-content: flex-end;
@@ -102,6 +99,7 @@ footer {
         display: block;
     }
     nav {
+        background-color: white;
         display: none;
         position: absolute;
         top: 100%;
@@ -117,3 +115,10 @@ footer {
         padding: 10px;
     }
 }
+
+    @media (min-width:768px) {
+#menu li:hover{
+border-bottom: 1px solid #1a659e;
+color: #1a659e;
+    }
+    }
