@@ -77,9 +77,38 @@ footer {
 }
 
 /*Media Query for Tablets*/
+@media (min-width:768px) {
+    nav {
+         display: flex;
+         justify-content: flex-end;
+         width: 100%;
+         margin-left:auto ;
+     }
+     nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+     }
+ }
 
-@media screen and(min-width:768px) {
+
+@media (max-width:768px) {
    .icon {
         display: block;
+    }
+    nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        text-align: center;
+        padding: 10px;
     }
 }
