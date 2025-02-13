@@ -24,10 +24,12 @@ header {
   position: fixed;
   width: 100%;
   z-index: 99;
-  /*padding-left: 5px;*/
+  left: 0;
+  top: 0;
+  padding: 15px 20px;
   display: flex;
-  justify-content: space-evenly;
-  align-items: baseline;
+  justify-content: space-between;
+  align-items: center;
 }
 #header {
   font-weight: 420;
@@ -63,6 +65,9 @@ nav {
   width: 100%;
   display: none;
   top: 100%;
+}
+#dropdown {
+display: none;
 }
 
 #dropdown:checked ~ nav {
