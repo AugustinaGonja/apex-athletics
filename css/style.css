@@ -1,77 +1,85 @@
 /*Google Fonts-->*/
-@import
-url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap");
 
 /*Wildcard Selector*/
 * {
-    padding: 0 ;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /*Generic Page Stylings*/
-body{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: black;
-    background-color: #fafaf0;
-    font-family: Oswald , Montserrat , sans-serif;
-    font-weight: 300;
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: black;
+  background-color: #fafaf0;
+  font-family: Oswald, Montserrat, sans-serif;
+  font-weight: 300;
 }
 
 header {
-    background-color:white;
-    position: fixed;
-    width: 100%;
-    z-index: 99;
-    /*padding-left: 5px;*/
-    display: flex;
-    justify-content:space-evenly;
-    align-items: baseline;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 99;
+  /*padding-left: 5px;*/
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
 }
-#header{
-    font-weight: 420;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-}
-
-#header:hover{
-    text-decoration: underline;
-    color: #1a659e;
-    border-bottom: 4px;
-    border-color: #1a659e;
-}
-header a{
-    text-decoration: none;
-    color: inherit;
+#header {
+  font-weight: 420;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
 
-#menu,li{
-    list-style: none;
-    margin-bottom: 2px;
-    padding-left: 10px;
+#header:hover {
+  text-decoration: underline;
+  color: #1a659e;
+  border-bottom: 4px;
+  border-color: #1a659e;
 }
-#menu:hover{
-    color:#1a659e ;
+header a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu,
+li {
+  list-style: none;
+  margin-bottom: 2px;
+  padding-left: 10px;
+}
+#menu:hover {
+  color: #1a659e;
 }
 
 /*Dropdown for Smaller Devices*/
-nav{
-    position: absolute;
-    background-color: white;
-    width: 100%;
-    display: none;
-    top: 100%;
+nav {
+  position: absolute;
+  background-color: white;
+  width: 100%;
+  display: none;
+  top: 100%;
 }
 
-#dropdown:checked~nav{
-    display: block;
+#dropdown:checked ~ nav {
+  display: block;
 }
 main {
-    flex: 1 0 auto;
+  flex: 1 0 auto;
 }
 
-footer{
-    background-color:white;
+footer {
+  background-color: white;
+}
+
+/*Media Query for Tablets*/
+
+@media screen and(min-width:768px) {
+   .icon {
+        display: block;
+    }
 }
