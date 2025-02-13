@@ -72,11 +72,30 @@ main {
 }
 
 footer {
+  position: relative;
+
   background-color: #004e89;
 }
 #footer-bottom{
+
   background-color: #1a659e;
 }
+#social{
+  text-align: center;
+  display:flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+li i {
+  color:black;
+}
+#footer-bottom {
+  text-align: center;
+  font-size: xx-small;
+  text-transform: uppercase;
+}
+
 /*Media Query for Tablets*/
 @media (min-width:768px) {
     .icon {
