@@ -74,16 +74,10 @@ main {
   flex: 1 0 auto;
 }
 /*Carousel*/
-#hero-image-carousel{
-  position: relative;
-}
-.img-c {
-  height: 50%;
-
-}
-
-.item{
-height: 100%;
+.carousel-item img{
+height: 250px;
+width:100%;
+object-fit: cover;
 }
 /*Footer Elements*/
 footer {
