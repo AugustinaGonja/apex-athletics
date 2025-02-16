@@ -17,6 +17,7 @@ body {
   background-color: #fafaf0;
   font-family: Oswald, Montserrat, sans-serif;
   font-weight: 300;
+  padding-top: 80px;
 }
 
 header {
@@ -30,6 +31,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height:80px
 }
 #header {
   font-weight: 420;
@@ -67,19 +69,35 @@ display: none;
 #dropdown:checked ~ nav {
   display: block;
 }
+/*Main Content*/
 main {
   flex: 1 0 auto;
 }
+/*Carousel*/
+#hero-image-carousel{
+  position: relative;
+}
+.img-c {
+  height: 50%;
 
+}
+
+.item{
+height: 100%;
+}
+/*Footer Elements*/
 footer {
   position: relative;
-
   background-color: #004e89;
 }
-#footer-bottom{
 
+#footer-bottom {
   background-color: #1a659e;
+  text-align: center;
+  font-size: xx-small;
+  text-transform: uppercase;
 }
+
 #social{
   text-align: center;
   display:flex;
@@ -90,11 +108,6 @@ footer {
 li i {
   color:black;
   font-size: larger;
-}
-#footer-bottom {
-  text-align: center;
-  font-size: xx-small;
-  text-transform: uppercase;
 }
 
 /*Media Query for Tablets*/
