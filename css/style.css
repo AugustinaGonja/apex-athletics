@@ -78,13 +78,20 @@ main {
 height: 250px;
 width:100%;
 object-fit: cover;
-filter: brightness(0.6);
+filter: brightness(0.5);
+}
+
+/*About Us Section*/
+#about-us{
+  padding: 10% 10% 10% 50%;
+
 }
 
 /*Footer Elements*/
 footer {
-  position: relative;
   background-color: #004e89;
+  height: 50px;
+  padding-bottom: 0px;
 }
 
 #footer-bottom {
@@ -95,15 +102,16 @@ footer {
 }
 
 #social{
-  text-align: center;
+  color:black;
+  font-size: large;
   display:flex;
   justify-content: space-evenly;
   text-decoration: none;
 }
 
-li i {
+li a {
   color:black;
-  font-size: larger;
+  text-align: center;
 }
 
 /*Media Query for Tablets*/
