@@ -83,7 +83,7 @@ filter: brightness(0.5);
 
 /*About Us Section*/
 h2 {
-  padding-bottom: 5%;
+  padding-bottom: 15px;
   font-size: xx-large ;
   font-weight:350 ;
   text-transform:uppercase;
@@ -103,8 +103,10 @@ h2 {
   max-width: none;
   background-color: #f7c59f;
   margin-top: 20px;
+  margin-bottom: 20px;
   border-radius: 10px;
   height:200px;
+
   
 }
 
