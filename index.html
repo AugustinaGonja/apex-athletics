@@ -1,138 +1,221 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Apex Athletics</title>
-  <!--Favicon Code (Linked in Readme.md File)-->
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png" />
-  <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
-  <!--Bootstrap CSS-->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  <!--CSS Stylesheet-->
-  <link rel="stylesheet" href="css/style.css" />
-</head>
-<body>
-  <!--Header-->
-  <header>
-    <a href="index.html">
-      <h1 id="header">Apex Athletics</h1>
-    </a>
-    <input type="checkbox" id="dropdown" name="dropdown" />
-    <label for="dropdown" class="icon"><i class="fa-sharp-duotone fa-solid fa-bars fa-flip-both"
-        style="--fa-primary-color: #000000; --fa-secondary-color: #000000"></i></label>
-    <!--Navigation Bar-->
-    <nav id="menu">
-      <ul>
-        <li><a href="#about-us">About Us</a></li>
-        <li><a href="training-and-programs.html ">Training & Programs</a></li>
-        <li><a href="#upcoming-events">Events</a></li>
-        <li><a href="contact-us.html">Contact Us</a></li>
-      </ul>
-    </nav>
-  </header>
-  <!--Main Page Content-->
-  <main>
-    <div id="hero-image-carousel" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="assets/images/running-tracks-carousel.webp" class="d-block w-100 img-c" alt="Slide 1">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apex Athletics</title>
+    <!--Favicon Code (Linked in Readme.md File)-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest" />
+    <!--Bootstrap CSS-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!--CSS Stylesheet-->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header>
+      <a href="index.html">
+        <h1 id="header">Apex Athletics</h1>
+      </a>
+      <input type="checkbox" id="dropdown" name="dropdown" />
+      <label for="dropdown" class="icon"
+        ><i
+          class="fa-sharp-duotone fa-solid fa-bars fa-flip-both"
+          style="--fa-primary-color: #000000; --fa-secondary-color: #000000"
+        ></i
+      ></label>
+      <!--Navigation Bar-->
+      <nav id="menu">
+        <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="training-and-programs.html ">Training & Programs</a></li>
+          <li><a href="#upcoming-events">Events</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--Main Page Content-->
+    <main>
+      <div
+        id="hero-image-carousel"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="assets/images/running-tracks-carousel.webp"
+              class="d-block w-100 img-c"
+              alt="Slide 1"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/Running-club-carousel.avif"
+              class="d-block w-100 img-c"
+              alt="Slide 2"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/images/Runners - carousel -1.jpg"
+              class="d-block w-100 img-c"
+              alt="Slide 3"
+            />
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="assets/images/Running-club-carousel.avif" class="d-block w-100 img-c" alt="Slide 2">
-        </div>
-        <div class="carousel-item">
-          <img src="assets/images/Runners - carousel -1.jpg" class="d-block w-100 img-c" alt="Slide 3">
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#hero-image-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#hero-image-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#hero-image-carousel" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#hero-image-carousel" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!--About Section-->
-    <section id="about-us">
-      <h2><strong>About Us!</strong><br><br>Apex Athletics</h2>
-    <div>
-      <p>
-        We are committed to creating an inclusive space for aspiring athletes
-        and individuals looking to become<br> more active and improve their health.
-        Our facility brings together like-minded individuals, fostering<br> their
-        potential not only in track and field but in all aspects of life.<br>
-      </p>
-      <p>Join us on this journey—it might just change your life!</p>
-      <p>
-      <b>Our outdoor training facility features:<br>
-    <ul>
-        <li>+ An eight-lane track</li>
-        <li>+ Dedicated areas for pole vault and high jump</li>
-        <li>+ Long jump and triple jump pits</li>
-        <li>+ A throwing field designed for javelin, shot put, and hammer throw</li>
-    </ul></b>
-      </p>
-    </div>
-    </section>
-    <!--Club Offerings Section-->
-    <section>
-      <div class="container">
-        <div class="box">Fitness<br>
-          <i class="fa-solid fa-dumbbell"></i>
-          <p>Enhance your fitness in a more dynamic way than the gym. A unique and engaging way to incorporate physical activity into your routine.</p>
-        </div>
-      </div>
-
-      <div class="container">
-        <div class="box">Skill Development<br>
-          <i class="fa-solid fa-medal"></i>
-          <p> Whether you're an aspiring athlete or looking to refine your abilities, this is the perfect opportunity to improve in sprinting, high jump, shot put, and more.  
+      <!--About Section-->
+      <section id="about-us">
+        <h2><strong>About Us!</strong><br /><br />Apex Athletics</h2>
+        <div>
+          <p>
+            We are committed to creating an inclusive space for aspiring
+            athletes and individuals looking to become<br />
+            more active and improve their health. Our facility brings together
+            like-minded individuals, fostering<br />
+            their potential not only in track and field but in all aspects of
+            life.<br />
+          </p>
+          <p>Join us on this journey—it might just change your life!</p>
+          <p>
+            <b
+              >Our outdoor training facility features:<br />
+              <ul>
+                <li>+ An eight-lane track</li>
+                <li>+ Dedicated areas for pole vault and high jump</li>
+                <li>+ Long jump and triple jump pits</li>
+                <li>
+                  + A throwing field designed for javelin, shot put, and hammer
+                  throw
+                </li>
+              </ul></b
+            >
           </p>
         </div>
-      </div>
-      
-      <div class="container">
-        <div class="box">Community & Fun<br>
-          <i class="fa-regular fa-face-smile"></i>
-          <p>Connect with like-minded individuals, stay motivated, and enjoy the journey together!
-          </p>
+      </section>
+      <!--Club Offerings Section-->
+      <section>
+        <div class="container">
+          <div class="box">
+            Fitness<br />
+            <i class="fa-solid fa-dumbbell"></i>
+            <p>
+              Enhance your fitness in a more dynamic way than the gym. A unique
+              and engaging way to incorporate physical activity into your
+              routine.
+            </p>
+          </div>
         </div>
-      </div>
-    </section>
-  </main>
-  
-</body>
-<!--Footer-->
-<footer>
-  <!--Social Media Links For Facebook, Instagram and X-->
-  <ul id="social">
-    <li>
-      <a href="https://www.facebook.com/?locale=en_GB" target="_blank" rel="noopener">
-        <i class="fa-brands fa-square-facebook"></i></a>
-    </li>
 
-    <li>
-      <a href="https://www.instagram.com/?rcs=ATCntzxoaqxkLaz7MiuUDxc84BPpCtqk4kvvVD9OBFD7BXKOYeszuNNY8-pnUZ3Wktfcg86iqs6fsBmjwTRjItdmIph5JpXrQ9rNAmhhwiHPQkUnFAijVvWoSCJ0Fxa6IABAjf2sboDp0nj9yJ4BcFMRpNzg07NuZyuhAw"
-        target="_blank" rel="noopener">
-        <i class="fa-brands fa-instagram"></i></a>
-    </li>
+        <div class="container">
+          <div class="box">
+            Skill Development<br />
+            <i class="fa-solid fa-medal"></i>
+            <p>
+              Whether you're an aspiring athlete or looking to refine your
+              abilities, this is the perfect opportunity to improve in
+              sprinting, high jump, shot put, and more.
+            </p>
+          </div>
+        </div>
 
-    <li>
-      <a href="https://x.com/?lang=en" target="_blank" rel="noopener">
-        <i class="fa-brands fa-x-twitter"></i></a>
-    </li>
-  </ul>
-  <div id="footer-bottom">
-    <p>@2025 Apex Athletics</p>
-  </div>
-  <!--Bootstrap JS-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</footer>
-<!--Font Awesome for Media Icons-->
-<script src="https://kit.fontawesome.com/7e94103858.js" crossorigin="anonymous"></script>
+        <div class="container">
+          <div class="box">
+            Community & Fun<br />
+            <i class="fa-regular fa-face-smile"></i>
+            <p>
+              Connect with like-minded individuals, stay motivated, and enjoy
+              the journey together!
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+  <!--Footer-->
+  <footer>
+    <!--Social Media Links For Facebook, Instagram and X-->
+    <ul id="social">
+      <li>
+        <a
+          href="https://www.facebook.com/?locale=en_GB"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-square-facebook"></i
+        ></a>
+      </li>
+
+      <li>
+        <a
+          href="https://www.instagram.com/?rcs=ATCntzxoaqxkLaz7MiuUDxc84BPpCtqk4kvvVD9OBFD7BXKOYeszuNNY8-pnUZ3Wktfcg86iqs6fsBmjwTRjItdmIph5JpXrQ9rNAmhhwiHPQkUnFAijVvWoSCJ0Fxa6IABAjf2sboDp0nj9yJ4BcFMRpNzg07NuZyuhAw"
+          target="_blank"
+          rel="noopener"
+        >
+          <i class="fa-brands fa-instagram"></i
+        ></a>
+      </li>
+
+      <li>
+        <a href="https://x.com/?lang=en" target="_blank" rel="noopener">
+          <i class="fa-brands fa-x-twitter"></i
+        ></a>
+      </li>
+    </ul>
+    <div id="footer-bottom">
+      <p>@2025 Apex Athletics</p>
+    </div>
+    <!--Bootstrap JS-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </footer>
+  <!--Font Awesome for Media Icons-->
+  <script
+    src="https://kit.fontawesome.com/7e94103858.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
