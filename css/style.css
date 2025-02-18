@@ -90,24 +90,16 @@ h2 {
   letter-spacing: 4px;
 }
 #about-us{
-  top: 0;
-  margin: 10% 10% 10% 50%;
+  margin: 50px 0px 50px 20px; 
   font-weight: 300;
   font-size: larger;
+  text-align: center;
 }
-#about-us li{
-  list-style:square;
 
-}
-#about-us ul{
-  padding-left: 18px;
-
-}
 /*Club Offerings Boxes*/
 .container{
   position: relative;
   box-sizing: border-box;
-  
   max-width: none;
   background-color: #f7c59f;
   margin-top: 20px;
