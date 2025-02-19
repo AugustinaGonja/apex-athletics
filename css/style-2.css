@@ -73,7 +73,14 @@ display: none;
 main {
   flex: 1 0 auto;
 }
+/*Hero Image*/
 
+.training-img{
+width: 100%;
+object-fit:cover;
+filter: brightness(0.5);
+
+}
 /*Footer Elements*/
 footer {
     background-color: #004e89;
