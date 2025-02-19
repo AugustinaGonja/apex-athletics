@@ -121,7 +121,27 @@ text-align: center;
   text-align: center;
   }
 
-/*Button*/
+/*Buttons*/
+.btn{
+  background-color: #ff6b35;
+  color:#f7c59f;
+  margin:10px 0px 10px 20px;
+}
+.btn:hover{
+  background-color: #f7c59f;
+  color:#ff6b35;
+}
+.btn-primary:hover{
+  background-color: #f7c59f;
+  color:#ff6b35;
+}
+.btn-primary {
+  background-color: #ff6b35;
+  color:#f7c59f;
+  border:none;
+  display: flex;
+  justify-content: center;
+}
 
 /*Cards*/
 .events{
