@@ -58,7 +58,7 @@
     </header>
     <!--Main Page Content-->
     <main>
-      <div class="hero-img">
+      <div class="contact-img">
         <img
           src="assets/images/contact-img.jpg"
           class="contact-img"
@@ -73,13 +73,16 @@
       </p>
       <!--Registration Form-->
       <form action="" method="POST">
-        <label for="user">Name</label>
+        <label for="user">Name :</label>
         <input type="text" name="user" placeholder="Enter Your Name" required>
-        <label for="user">Email</label>
+        <label for="user">Email :</label>
         <input type="email" name="email" placeholder="Enter Your Email Address" required>
-        <label for="user">Contact Number</label>
+        <label for="user">Contact Number :</label>
         <input type="text" name="contact" placeholder="Enter Your Contact Number" required>
-        <select name="session" required>
+        <div>
+          <div id="option">
+        <label for="session">Choose Option :</label>
+        <select name="session">
           <option></option>
           <option>Sprint & Acceleration Drills</option>
           <option>Plyometrics & Agility</option>
@@ -94,39 +97,40 @@
           <option>Javelin & Hammer Throw</option>
           <option>Cross-Training</option>
         </select>
+      </div>
+      <div id="radio">
+        <label for="time">Choose Time :</label><br>
         <input type="radio" name="time">
-        <label for="time">9:00 am - 11:00 am</label>
+        <label for="time">9:00 am - 11:00 am</label><br>
         <input type="radio" name="time">
-        <label for="time">11:00 am - 13:00 pm</label>
+        <label for="time">11:00 am - 13:00 pm</label><br>
         <input type="radio" name="time">
-        <label for="time">13:00 pm - 15:00 pm</label>
+        <label for="time">13:00 pm - 15:00 pm</label><br>
         <input type="radio" name="time">
-        <label for="time">15:00 pm - 17:00 pm</label>
+        <label for="time">15:00 pm - 17:00 pm</label><br>
         <input type="radio" name="time">
-        <label for="time">17:00 pm - 19:00 pm</label>
-        <button type="submit">Register</button>
-      </form>
+        <label for="time">17:00 pm - 19:00 pm</label><br>
+      </div>
+      </div>
        <!--Events Form-->
-       <form action="" method="POST" id="events-form">
-        <label for="user">Name</label>
-        <input type="text" name="user" placeholder="Enter Your Name" required>
-        <label for="user">Email</label>
-        <input type="email" name="email" placeholder="Enter Your Email Address" required>
-        <select name="session" required>
+       <div id="events">
+        <label for="events">Events Selection :</label><br>
+        <select name="events">
           <option></option>
           <option>Apex Track Meet</option>
           <option>Summer Sprint</option>
           <option>Throw and Jump Challenge</option>
           </select>
           <button type="submit">Register</button>
-       </form>
+        </div>
+      </form>
       <!--Contact and Further Enquires-->
       <h3>Contact Us!</h3>
       <p>
         If you have any further queries or questions, please don't hesistate to
         contact us.
       </p>
-      <div>
+      <div id="contact">
         <p>Address : Stockdove Way, Perivale, Greenford UB6 8TJ<br>
           Phone : 01234567891<br> Email : apexathletics@gmail.com</p>
         <img src="assets/images/Location.png" alt="Map showing Location">
