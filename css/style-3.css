@@ -81,6 +81,16 @@ main {
   filter: brightness(0.5);
 }
 
+/*Text Content*/
+h2,
+h3 {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: xx-large;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
 /*Footer Elements*/
 footer {
   background-color: #004e89;
