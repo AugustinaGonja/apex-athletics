@@ -90,7 +90,13 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+ h2 ~p {
+  padding-left: 20px
+ }
 
+ h3 ~p {
+  padding-left: 20px
+ }
 .card-text {
   margin: 10px 0px 10px 0px;
   font-weight: 300;
@@ -98,18 +104,21 @@ h3 {
   text-align: start;
 }
 /*Table Styling*/
-
 .table tr {
   text-transform: uppercase;
   text-align: center;
 }
 
 h5 {
-  font-weight: 420;
-  padding-left: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-}
+    font-weight: 420;
+    margin: 0%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    background-color: #ff6b35;
+    color: #f7c59f;
+  }
 
 /*Buttons*/
 .btn {
@@ -142,7 +151,12 @@ button a:hover {
 .card {
   flex-grow: 1;
 }
-
+.card-title{
+  display: flex;
+  justify-content: start;
+  background-color: #ffff;
+  text-transform: capitalize;
+}
 .card > img {
   width: 100%;
   height: 300px;
