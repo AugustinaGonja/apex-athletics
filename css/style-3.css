@@ -91,6 +91,26 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+h2 ~ p {
+  padding-left: 20px
+ }
+ div p {
+  padding-left: 20px
+ }
+
+ /*Form Content*/
+ form{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  
+  padding: 20px;
+ }
+ /*Contact Section*/
+ #contact {
+  display: flex;
+  justify-content: flex-end;
+ }
 /*Footer Elements*/
 footer {
   background-color: #004e89;
