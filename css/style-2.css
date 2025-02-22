@@ -94,15 +94,10 @@ h3 {
   padding-left: 20px
  }
 
- h3 ~p {
+ p {
   padding-left: 20px
  }
-.card-text {
-  margin: 10px 0px 10px 0px;
-  font-weight: 300;
-  font-size: larger;
-  text-align: start;
-}
+
 /*Table Styling*/
 .table tr {
   text-transform: uppercase;
@@ -135,14 +130,10 @@ h5 {
   background-color: #f7c59f;
   color: #ff6b35;}
   
-button a {
+.e-btn{
   text-decoration: none;
-  color: #f7c59f;
+  width:fit-content;
 }
-button a:hover {
-  background-color: #f7c59f;
-  color: #ff6b35;}
-
 /*Cards*/
 .events {
   display: flex;
@@ -156,6 +147,14 @@ button a:hover {
   justify-content: start;
   background-color: #ffff;
   text-transform: capitalize;
+}
+.card-text {
+  margin: 10px 0px;
+  padding-left: 0px;
+  text-align: left;
+  font-weight: 300;
+  font-size: larger;
+  text-align: start;
 }
 .card > img {
   width: 100%;
