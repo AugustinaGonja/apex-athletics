@@ -104,6 +104,24 @@ The site's imagery will feature track athletes running, jumping, and throwing, h
 Wireframes below created using "Balsamiq".
 Each page has its own wireframe as displayed on different screen sizes.
 
+<details>
+<summary>Homepage Wireframe</summary>
+<br>
+<img src="assets/images/Index.html%20Wireframe.png">
+</details>
+
+<details>
+<summary>Training Schedule Page Wireframe</summary>
+<br>
+<img src="assets/images/Training%20Schedule.html%20Wireframe.png">
+</details>
+
+<details>
+<summary>Contact Page Wireframe</summary>
+<br>
+<img src="assets/images/Contact.html%20Wireframe.png">
+</details>
+
 ## Features 
 
 
