@@ -77,13 +77,14 @@ main {
 
 .contact-img {
   width: 100%;
+  padding-top: 0px;
   object-fit: cover;
   filter: brightness(0.5);
 }
 
 /*Text Content*/
 h2,
-h3 {
+h3,h4 {
   padding-top: 10px;
   padding-left: 20px;
   font-size: xx-large;
@@ -91,25 +92,66 @@ h3 {
   text-transform: uppercase;
   text-align: center;
 }
+h4{
+  font-size: medium;
+  font-weight: 350;
+}
 h2 ~ p {
-  padding-left: 20px
+  padding-left: 20px;
+  text-align: center;
  }
  div p {
-  padding-left: 20px
+  padding-left: 20px;
+text-align: center
  }
 
  /*Form Content*/
+ section{
+  display: flex;
+  justify-content: center;
+}
  form{
+  background-color:#f7c59f;
+  border-radius: 25px;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  
-  padding: 20px;
+  align-content: center;
+  padding:20px 40px;
+  width: 75%;
  }
- /*Contact Section*/
- #contact {
+ div {
+  flex-wrap: wrap;
+  padding-top: 10px;
+ }
+#radio{
+  padding: 10px 0px;
+}
+.events{
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+  button {
+    background-color: #ff6b35;
+    border: none;
+    border-radius: 5px;
+    width:100px;
+    height:36px ;
+    text-decoration: none;
+    color: #f7c59f;
+  }
+
+ select {
+    margin: 0px 10px;
+  }
+  button:hover {
+    background-color: #f7c59f;
+    color: #ff6b35;}
+ /*Contact Section*/
+ #contacts {
+  text-align: center;
  }
 /*Footer Elements*/
 footer {
@@ -183,5 +225,11 @@ li a {
   #menu li:hover {
     border-bottom: 1px solid #1a659e;
     color: #1a659e;
+  }
+}
+@media (max-width: 600px){
+  .events{
+    display: flex;
+    flex-direction: column;
   }
 }
