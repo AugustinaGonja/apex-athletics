@@ -106,7 +106,7 @@ h2 {
   margin-bottom: 20px;
   border-radius: 10px;
   height:200px;
-
+  
   
 }
 
@@ -212,4 +212,10 @@ li a {
 border-bottom: 1px solid #1a659e;
 color: #1a659e;
     }
+    }
+  
+  @media (max-width: 600px){
+      .container{
+        height: fit-content;
+      }
     }
