@@ -21,13 +21,14 @@ body {
 }
 
 header {
-  background-color: white;
+  background-color: #004e89;
+  color: #fafaf0;
   position: fixed;
   width: 100%;
   z-index: 99;
   left: 0;
   top: 0;
-  padding: 15px 20px;
+  padding: 20px 15px 15px 10px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,20 +42,22 @@ header {
 
 #header:hover {
   text-decoration: underline;
-  color: #1a659e;
+  color: #fafaf0;
   border-bottom: 4px;
-  border-color: #1a659e;
+  border-color: #fafaf0;
 }
 header a {
   text-decoration: none;
   color: inherit;
 }
-
+nav li{
+  display: flex;
+  justify-content: space-around;
+  margin-right: 20px;
+}
 #menu,
 li {
   list-style: none;
-  padding: 0px 10px 0px 10px;
-  right: 15px;
 }
 /*Dropdown*/
 nav {
@@ -68,6 +71,7 @@ nav {
 
 #dropdown:checked ~ nav {
   display: block;
+  background-color: #1a659e;
 }
 /*Main Content*/
 main {
@@ -139,15 +143,12 @@ text-align: center
     width:100px;
     height:36px ;
     text-decoration: none;
-    color: #f7c59f;
+    color: black;
   }
 
  select {
-    margin: 0px 10px;
+    margin: 0px 10px 10px 10px;
   }
-  button:hover {
-    background-color: #f7c59f;
-    color: #ff6b35;}
  /*Contact Section*/
  #contacts {
   text-align: center;
@@ -155,7 +156,7 @@ text-align: center
 /*Footer Elements*/
 footer {
   background-color: #004e89;
-  height: 50px;
+  height: 27px;
   padding-bottom: 0px;
 }
 
@@ -164,6 +165,7 @@ footer {
   text-align: center;
   font-size: xx-small;
   text-transform: uppercase;
+  color: #fafaf0;
 }
 
 #social {
@@ -172,10 +174,11 @@ footer {
   display: flex;
   justify-content: space-evenly;
   text-decoration: none;
+  margin: 0px;
 }
 
 li a {
-  color: black;
+  color: #fafaf0;
   text-align: center;
 }
 
@@ -230,5 +233,8 @@ li a {
   .events{
     display: flex;
     flex-direction: column;
+  }
+  select{
+    margin : 0px 0px 20px 0px
   }
 }
