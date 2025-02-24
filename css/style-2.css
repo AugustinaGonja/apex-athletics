@@ -143,6 +143,7 @@ h5 {
 .events {
   display: flex;
   padding: 10px;
+  width: 100%;
 }
 .card {
   flex-grow: 1;
