@@ -235,6 +235,7 @@ li a {
     flex-direction: column;
   }
   select{
-    margin : 0px 0px 20px 0px
+    margin : 0px 0px 20px 0px;
+    width:160px;
   }
 }
