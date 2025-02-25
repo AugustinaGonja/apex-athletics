@@ -1,10 +1,37 @@
 # Apex Athletics Website 
-Apex Athletics is designed for individuals of all ages seeking coaching in their chosen athletic disciplines, regardless of skill level. It also provides users with information on track meets and events.
+Apex Athletics is designed for individuals of all ages seeking coaching in their chosen athletic disciplines, regardless of skill level.
+This website serves as the official online platform for the athletics club, providing information about its activities, events, membership, and resources for athletes of all levels.
 Furthermore,the website design ensures a user-friendly and accessible experience for all potential visitors.
 
 ![Amiresponsive Image showing device on multiple screen sizes](assets/images/Titleimage.png)
 
 [View Apex Athletics Website on GitHub Pages](https://augustinagonja.github.io/apex-athletics/)
+
+## Contents
+**[User Experience (UX)](#user-experience-ux)**
+* [Project Expectations](#project-expectations)
+* [User Stories](#user-stories)
+
+**[Design](#design)**
+* [Colour Scheme](#colour-scheme)
+* [Typography](#typography)
+* [Imagery](#imagery)
+* [Wireframes](#wireframes)
+
+**[Features](#features)**
+
+**[Accesibility](#accesibility)**
+* [Future Implementation](#future-implementation)
+
+**[Testing](#testing)**
+
+**[Technologies Used](#technologies-used)**
+* [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+**[Credits & Code Used](#credits--code-used)**
+* [Content](#content)
+* [Media](#media)
+
 
 ## User Experience (UX) 
 ### Project Expectations 
@@ -17,6 +44,7 @@ The final output for this project is a three-page website consisting of the foll
 ### User Stories 
 Considering all potential users of the website, their needs, expectations, and the features they might be looking for, I will focus on implementing these elements effectively as a developer.
 
+---
 **First Time Visitor** 
 
 "As a Potential Visitor, I want to learn about the club so that I can decide if I want to join."
@@ -90,7 +118,7 @@ Tasks:
 ## Design
 
 ### Colour Scheme 
-I used the website ["Coolors"](https://coolors.co/) to select my color scheme.
+I used the website **["Coolors"](https://coolors.co/)** to select my color scheme.
 
 A selection of natural tones, featuring **various shades of blue.**  
 To bring energy and vibrancy to the site, **yellows, oranges, and whites** are included.
@@ -195,7 +223,6 @@ Selected a bold yet readable **"Oswald"** font, consistently used throughout the
 
 Included detailed alt text for images to ensure accessibility, especially if images fail to load.
 
----
 ### Future Implementation
 
 If I were to return to this project I would like to :
@@ -216,7 +243,7 @@ I believe these improvements would fully enhance the overall user experience of 
 
 This project only required the use of HTML and CSS.
 
-## Frameworks, Libraries & Programs Used
+### Frameworks, Libraries & Programs Used
 * **[Balsamiq](https://balsamiq.com/)**<br>To build page by page wireframes.
 
 * **[Git & Github](https://github.com/)**<br>Version control ,saving and storing files for the site respectively.
@@ -233,7 +260,7 @@ This project only required the use of HTML and CSS.
 
 * **[Am I Responsive?](https://ui.dev/amiresponsive)**<br>To show the website image on a range of devices.
 
-# Credits & Code Used
+## Credits & Code Used
 * I drew significant inspiration from the **[Love Running - Essentials Project](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LRFX101+6/courseware/e805068059af42af87681032aa64053f/1da6ad13213740f1855a51d30a2375b1/)**. This example was particularly helpful as the Love Running website addresses a similar fitness and sports theme to my own.The walkthrough provided essential guidance, especially in helping me develop a responsive navigation bar and very basic page structure including the footer.
 
 * I frequently used **[Stack Overflow](https://stackoverflow.com/questions)** to find solutions to specific coding questions and explore discussions around similar issues I encountered while writing my code. Additionally, I referred to **[W3Schools](https://www.w3schools.com/html/default.asp)** for more general queries and foundational information.
@@ -243,9 +270,9 @@ This project only required the use of HTML and CSS.
 * **[Favicon Generator used to produce Favicon image](https://favicon.io/favicon-converter/)**
 
 * **[FontAwesome for all icons used on website](https://fontawesome.com/)**
-# Content
+### Content
 All written content, including the text on tables and cards, was composed by me.<br>I used Grammarly as an assistant to enhance the flow and readability of the text.
-# Media
+### Media
 
 **Images**
 
@@ -265,3 +292,4 @@ All written content, including the text on tables and cards, was composed by me.
 
 * [Card Image 3](https://a.espncdn.com/photo/2024/0718/r1360186_1296x729_16-9.jpg)
 ---
+[Back to the top](#apex-athletics-website)
