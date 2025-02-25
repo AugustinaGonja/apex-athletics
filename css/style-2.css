@@ -147,6 +147,7 @@ h5 {
 }
 .card {
   flex-grow: 1;
+  width: 33%;
 }
 .card-title{
   display: flex;
@@ -253,6 +254,7 @@ li a {
   }
   .card{
     margin-bottom: 10px;
+    width: 100%;
   }
   
 }
