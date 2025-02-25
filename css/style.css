@@ -183,6 +183,9 @@ li a {
      .carousel-item img{
       height: 850px;  
       }
+      #menu li:hover {
+        border-bottom: 1px solid #fafaf0;
+      }
  }
 
  
@@ -212,13 +215,6 @@ li a {
       height: 600px;
       }
 }
-
-    @media (min-width:768px) {
-#menu li:hover{
-border-bottom: 1px solid #1a659e;
-color: #1a659e;
-    }
-    }
   
   @media (max-width: 600px){
       .container{

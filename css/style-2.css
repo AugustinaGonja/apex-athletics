@@ -214,6 +214,9 @@ li a {
     flex-direction: row;
     justify-content: flex-end;
   }
+  #menu li:hover {
+    border-bottom: 1px solid #fafaf0;
+  }
 }
 
 @media (max-width: 768px) {
@@ -236,13 +239,6 @@ li a {
   nav ul li {
     text-align: center;
     padding: 10px;
-  }
-}
-
-@media (min-width: 768px) {
-  #menu li:hover {
-    border-bottom: 1px solid #1a659e;
-    color: #1a659e;
   }
 }
 @media (max-width: 600px){
