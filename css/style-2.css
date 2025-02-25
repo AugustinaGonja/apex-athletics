@@ -127,7 +127,7 @@ h5 {
   color: black;
   text-decoration: none;
   display: block;
-  margin: auto;
+  margin-bottom: 10px;
   border: none;
 }
 
@@ -138,6 +138,7 @@ h5 {
 .e-btn{
   text-decoration: none;
   width:fit-content;
+  margin: auto;
 }
 /*Cards*/
 .events {
