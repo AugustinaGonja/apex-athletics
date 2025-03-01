@@ -71,8 +71,16 @@ I noticed that my mobile performance was most impacted, particularly on the seco
 In terms of accessibility, all pages—both desktop and mobile—scored 84 or higher.
 Areas for improvement include:
 
-* Improving the contrast ratio between background and foreground colors.
 * Attaching descriptive names to social media links.
+* Improving the contrast ratio between background and foreground colors.
+
+**Wave Contrast Checker** 
+
+[index.html Contrast Check](testing/Examples/contrastcheck-1.png)
+
+[training-schedule.html Contrast Check](testing/Examples/contrastcheck-2.png)
+
+[contact-us.html Contrast Check](testing/Examples/contrastcheck-3.png)
 
 Best Practices and SEO's scored 100 and 91 respectively across the board.
 
